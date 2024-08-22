@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta http-equip="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Portifolio project</title>
+        <link rel="stylesheet" href="Minor.css">
+        <script src="https://kit.fontawesome.com/436d309958.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!---Header section starts-->
+         <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li> 
+                        <li><a href="#about">ABOUT</a></li> 
+                        <li><a href="#services">SERVICES</a></li> 
+                        <li><a href="#portfolio">PORTFOLIO</a></li> 
+                        <li><a href="#contact">CONTACT ME</a></li> 
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <P>Web developer</P>
+                    <h2>Hi,I'm <span>Dundy Padma Teja</span><br/>From India</h2>
+                </div>
+            </div>
+         </div>
+        <!---Header section Ends-->
+
+        <!---About  section starts-->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                         <img src="images/me.jpeg" alt="dundy">
+                    </div>
+                    <div class="about-col-2">
+                         <h1 class="sub-title">About Me</h1>
+                         <p>I am dundy padma teja currently pursuing puc-2 in RGUKT Nuzvid. I am a yoga Practioner and currently learning software development course which was conducted by sensisemiconductors company and mentor was surya trinadh chodisetty </p>
+                         
+                         <div class="tab-titles">
+                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                             <p class="tab-links" onclick="opentab('Expertise')">Expertise</p>
+                             <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                              <ul>
+                                 <li><span>UI/UX</span><br>Designing Web & App Interfaces</li>
+                                 <li><span>Web Development</span><br>developing Creative Websites</li>
+                                 <li><span>lATEX </span><br>creating beautiful typeset documents</li>
+                              </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Expertise">
+                           <ul>
+                              <li><span>2020</span><br>Selected for National means-cum merit schlolarship</li>
+                              <li><span>2022-2023</span><br>got 579 marks in ssc</li>
+                              <li><span>2023-present</span><br>Yoga Practioner</li>
+                           </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                 <li><span>2022-2023</span><br>Completed SSC in zphs girls high school</li>
+                                 <li><span>2023-2024</span><br> pursuing Pre-University Course at RGUKT Nuzvid</li>
+                                 <li><span>2024-present</span><br>learning web-development</li>
+                            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!---About  section Ends-->
+
+          <!---Service section Starts-->
+          <div id="services">
+             <div class="container">
+                <h2 class="sub-title">My Services</h2>
+                <div class="service-list">
+                   <div>
+                      <i class="fa-solid fa-code"></i>
+                      <h3>Web Development</h3>
+                      <p>it helps to develop web pages for the company </p>
+                      <a href="#"> Learn More</a>
+                  </div>
+
+                  <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h3>UI/UX Designing</h3>
+                    <p>user interface and user experience ,it helps to design an interface for the app </p>
+                    <a href="#" > Learn More</a>
+                 </div>
+
+                 <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h3>Graphic Designing</h3>
+                    <p> </p>
+                    <a href="#"> Learn More</a>
+                 </div>
+
+               </div>
+           </div>
+        </div>
+            
+
+          <!---Service section Ends-->
+
+            <!---Portfolio section starts-->
+            <div id="portfolio">
+                <div class="container">
+                    <h2 class="sub-title">My Work</h2>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="images/work.png" alt="image">
+                            <div class="layer">
+                                <h3>my work</h3>
+                                <p>   created this disneyplus hotstar page </p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+            
+                        </div>
+
+                        <div class="work">
+                            <img src="images/WORK2.png" alt="image">
+                            <div class="layer">
+                                <h3>my work</h3>
+                                <p>designed this page</p>
+                                <a href="#"><i class="fa-solid fa-link"></i></a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---Portfolio section ends-->
+
+           <!--Contact Section starts-->
+           <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                       <p><i class="fa-regular fa-envelope"></i>dundypadmatejuteju.gmail.com</p>
+                       <p><i class="fa-solid fa-phone"></i>+91 9346349366</p><br><br>
+                       <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                       </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Enter your full name" required>
+                            <input type="email" name="email" placeholder="Enter your Email ID" required>
+                            <textarea name="message" rows="6" placeholder="Enter your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                      <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+           
+           <!--contact section ends-->
+
+          <!--copyright section starts-->
+          <div class="copyright">
+            <p>Copyright© dundy padma teja <i class="fa-solid fa-heart"></i></p>
+          </div>
+          </div>
+          <!--copyright section ends-->
+
+
+         <!---script for about Tabs-->
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add('active-tab');
+            }
+
+         </script>
+         <!---script for about Tabs-->
+
+         <!--side navbar script-->
+         <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right= "0" ;
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+         </script>
+         <!--side navbar script ends-->
+
+         <!---script for google sheets-->
+         <script>
+            
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxUAOP4SR3ZykRlB2aTQeh9PskhvC1Ww_Zu9TZapolyrvpjuxUlao67WDyT7DqxJ2JD/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+
+            form.addEventListener('submit', e=> {
+                e.preventDefault()
+                fetch(scriptURL,{ method: 'POST', body:new FormData(form)})
+                .then(Response =>{
+                    msg.innerHTML = "Thanks for Contacting us! Our team will get in touch with you shortly!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error("Error!",error.message))
+            })
+        </script>
+         <!--script for google sheets-->
+
+    </body>
+</html>
